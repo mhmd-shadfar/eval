@@ -1,2 +1,2 @@
 gym
-stable_baselines3
+stable-baselines3
