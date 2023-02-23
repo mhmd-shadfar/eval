@@ -17,7 +17,7 @@ if st.button("Add row"):
     model = PPO.load(uploaded_file)
     mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=10)
     # save the data in dfl.csv
-    open("pages/df.csv", "a").write(f"{mean_reward},{std_reward}\n")
+    open("df.csv", "a").write(f"{mean_reward},{std_reward}\n")
     st.write(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
     get_data().append({"mean_reward": mean_reward, "std_reward": std_reward})
 
