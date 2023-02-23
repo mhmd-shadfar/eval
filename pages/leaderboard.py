@@ -4,7 +4,7 @@ import pandas as pd
 
 # show the dataframe 
 
-df = pd.read_csv("/home/mohamad/tmp/code_eval/df.csv")
+df = pd.read_csv("df.csv")
 
 st.write(df)
 
