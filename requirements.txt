@@ -1,2 +1,1 @@
-pip == 23.0.1
-stable-baselines3 == 1.5.0
+git+https://github.com/DLR-RM/stable-baselines3.git@master#egg=stable-baselines3[extra]
