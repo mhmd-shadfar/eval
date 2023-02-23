@@ -1,0 +1,7 @@
+OS: Linux-5.15.0-60-generic-x86_64-with-glibc2.29 #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023
+Python: 3.8.10
+Stable-Baselines3: 1.5.0
+PyTorch: 1.11.0+cpu
+GPU Enabled: False
+Numpy: 1.22.3
+Gym: 0.21.0
